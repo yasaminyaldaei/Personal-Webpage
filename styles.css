@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  background-color: #736598;
+  color: #f1e7fe;
+}
+
+a {
+  text-decoration: none;
+  color: #f1e7fe;
+}
+
+nav {
+  position: fixed;
+  top: 0vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #736598;
+}
+nav a {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projects h2 {
+  text-align: center;
+  margin: 50px;
+}
+#projects #project-tiles {
+  display: grid;
+  grid-template: repeat(2, 200px)/repeat(3, 30vw);
+  grid-gap: 20px 20px;
+}
+#projects #project-tiles .project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+  height: 200px;
+  background-color: #f1e7fe;
+  border: 2px solid #f1e7fe;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#projects #project-tiles .project-tile a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#projects #project-tiles .project-tile a i {
+  color: #736598;
+  margin: 20px;
+}
+#projects #project-tiles .project-tile a h5 {
+  color: #736598;
+  text-align: center;
+  margin: 10px;
+}
+@media (max-width: 480px) {
+  #projects #project-tiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300vh;
+  }
+  #projects #project-tiles .project-tile {
+    width: 80vw;
+  }
+}
+
+#contact {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin-bottom: 5vh;
+}
+#contact h2 {
+  margin: 50px;
+}
+@media (max-width: 480px) {
+  #contact div {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
