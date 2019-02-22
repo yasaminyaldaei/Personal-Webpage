@@ -8,6 +8,7 @@ html {
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
   font-family: "Raleway", sans-serif;
   background-color: #736598;
   color: #f1e7fe;
