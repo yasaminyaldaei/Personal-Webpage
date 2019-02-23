@@ -7,7 +7,6 @@ html {
 
 body {
   height: 100%;
-  margin: 0;
   font-family: "Raleway", sans-serif;
   background-color: #736598;
   color: #f1e7fe;
@@ -45,6 +44,14 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#welcome-section img {
+  width: 150px;
+  height: 150px;
+  border: solid 3px #f1e7fe;
+  border-radius: 50%;
+  filter: grayscale(50%) contrast(100%);
+  opacity: 0.8;
 }
 
 #projects {

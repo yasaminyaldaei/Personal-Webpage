@@ -44,6 +44,15 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #f1e7fe;
+    border-radius: 50%;
+    filter: grayscale(50%) contrast(100%);
+    opacity: 0.8;
+  }
 }
 
 #projects {
