@@ -29,6 +29,9 @@ nav a {
   padding: 10px;
   margin: 0 10px 0 10px;
 }
+nav a:hover {
+  opacity: 0.7;
+}
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
@@ -52,6 +55,9 @@ nav a {
   border-radius: 50%;
   filter: grayscale(50%) contrast(100%);
   opacity: 0.8;
+}
+#welcome-section img:hover {
+  opacity: 0.7;
 }
 
 #projects {
@@ -96,6 +102,9 @@ nav a {
   text-align: center;
   margin: 10px;
 }
+#projects #project-tiles .project-tile:hover {
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
 @media (max-width: 480px) {
   #projects #project-tiles {
     display: flex;
@@ -124,6 +133,9 @@ nav a {
 }
 #contact div a {
   margin: 0 10px 0 10px;
+}
+#contact div a:hover {
+  opacity: 0.7;
 }
 #contact h2 {
   margin: 50px;

@@ -29,6 +29,10 @@ nav {
     padding: 10px;
     margin: 0 10px 0 10px;
   }
+
+  a:hover {
+    opacity: 0.7;
+  }
   
   @media (max-width: 480px) {
     flex-direction: column;
@@ -52,6 +56,10 @@ nav {
     border-radius: 50%;
     filter: grayscale(50%) contrast(100%);
     opacity: 0.8;
+  }
+
+  img:hover {
+    opacity: 0.7;
   }
 }
 
@@ -95,6 +103,9 @@ nav {
         }
       }
     }
+    .project-tile:hover{
+      box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
+    }
   }
   
   @media (max-width: 480px) {
@@ -124,6 +135,9 @@ nav {
     margin-bottom: 5vh;
     a {
       margin: 0 10px 0 10px;
+    }
+    a:hover {
+      opacity: 0.7;
     }
   }
   h2 {
