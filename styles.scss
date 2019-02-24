@@ -122,6 +122,9 @@ nav {
     align-items: center;
     width: 20%;
     margin-bottom: 5vh;
+    a {
+      margin: 0 10px 0 10px;
+    }
   }
   h2 {
     margin: 50px;
@@ -129,7 +132,7 @@ nav {
   
   @media (max-width: 480px) {
     div {
-      width: 40%;
+      width: 50%;
     }
   }
 }
