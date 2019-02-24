@@ -122,12 +122,15 @@ nav a {
   width: 20%;
   margin-bottom: 5vh;
 }
+#contact div a {
+  margin: 0 10px 0 10px;
+}
 #contact h2 {
   margin: 50px;
 }
 @media (max-width: 480px) {
   #contact div {
-    width: 40%;
+    width: 50%;
   }
 }
 
